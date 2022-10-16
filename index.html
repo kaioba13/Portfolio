@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="shortcut icon" href="./img/favicon-kaio.svg" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <title>Portifólio</title>
+</head>
+
+<body>
+  <div class="content">
+    <header class="header-menu container">
+      <div class="logo">
+        <img src="./img/logo-kaio (2).svg" alt="logo">
+      </div>
+
+      <nav id="nav" class="js-menu">
+        <button aria-label="abrir menu" aria-haspopup="true" aria-controls="menu" aria-expanded="false" id="btn-mobile">
+
+          <span id="hamburger"></span>
+        </button>
+        <ul class="menu" role="menu">
+          <li><a href="#sobre">sobre</a></li>
+          <li><a href="#projetos">projetos</a></li>
+          <li><a href="#contato">contato</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <article class="preview container js-scroll">
+        <div class="photo">
+          <img src="./img/foto-teste.jpg" alt="Foto de Kaio">
+        </div>
+
+        <div class="preview-content">
+          <h1 class="titulo">
+            Desenvolvedor<br>
+            Front-End &<br>
+            UX / UI Designer<span>.</span>
+          </h1>
+        </div>
+      </article>
+
+      <section class="sobre container js-scroll" id="sobre">
+        <h2>Sobre mim<span class="detail">...</span></h2>
+        <div class="sobre-img">
+          <img src="./img/programing.svg" alt="">
+        </div>
+        <div class="sobre-content">
+          <div class="sobre-apresentacao">
+            <h3 class="subtitulo">Hi Everyone!</h3>
+            <p class="descricao">
+              Me chamo Kaio e sou desenvolvedor Front - End &
+              UX / UI Designer. Como pode ver, este é um breve
+              resumo das minhas habilidades.
+            </p>
+          </div>
+          <div class="sobre-hard-skills">
+            <h3 class="subtitulo">Hard Skills<span class="detail">...</span></h3>
+            <ul class="hardskills-list">
+              <li><img src="./img/html 1.svg" alt=""></li>
+              <li><img src="./img/css3 1.svg" alt=""></li>
+              <li><img src="./img/javascript 1.svg" alt=""></li>
+              <li><img src="./img/figma 1.svg" alt=""></li>
+            </ul>
+          </div>
+          <div class="sobre-soft-skills">
+            <h3 class="subtitulo">Soft Skills<span class="detail">...</span></h3>
+            <p class="descricao">
+              Uma boa comunicação, foco na resolução de problemas.
+              Flexibilidade para adaptação de novos desafios e ambientes, trabalho em equipe e sempre aberto à feedbacks.
+            </p>
+            <p class="descricao">
+              Na próxima sessão você pode conhecer alguns dos meus <a href="#projetos">projetos</a>.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="projetos" class="projetos container js-scroll">
+        <h2>Projetos</h2>
+        <div class="prjetos-conteudo">
+          <ul class="projetos-lista">
+            <li><a href="https://bikcraft-alpha.vercel.app/" target="_blank">BIKCRAFT</a></li>
+            <li><a href="https://kaioba13.github.io/GITFav/" target="_blank">GIT FAV</a></li>
+            <li><a href="https://kaioba13.github.io/FocusTimer-DarkMode/" target="_blank">FOCUS TIMER</a></li>
+          </ul>
+          <P>É possível visualizar mais projetos acessando o link abaixo</P>
+          <a class="repositorio" href="https://github.com/kaioba13?tab=repositories" target="_blank">VISITAR REPOSITÓRIO</a>
+        </div>
+      </section>
+
+      <footer id="contato" class="contato container js-scroll">
+        <h2>Contato</h2>
+        <div class="contato-conteudo">
+          <p>Estou disponível para novos projetos no momento. Entre em contato comigo e marcamos uma conversa. 👋</p>
+          <div class="contato-canais">
+            <h3>Canais</h3>
+            <ul class="canais-lista">
+              <li><a href="mailto:kaiofagundess15@gmail.com" target="_blank"><img src="./img/Group 7.svg" alt=""></a></li>
+              <li><a href="https://chatwith.io/s/kaio-fagundes" target="_blank"><img src="./img/Vector-1.svg" alt=""></a></li>
+              <li><a href="https://www.linkedin.com/in/kaio-fagundes" target="_blank"><img src="./img/Vector.svg" alt=""></a></li>
+              <li><a href="https://github.com/kaioba13" target="_blank"><img src="./img/Vector-2.svg" alt=""></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="credito">
+          <p>developed by <span>Kaio</span></p>
+        </div>
+      </footer>
+
+    </main>
+  </div>
+
+  <script type="module" src="./js/script.js"></script>
+</body>
+
+</html>

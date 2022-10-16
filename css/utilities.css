@@ -1,0 +1,72 @@
+:root {
+  --bg-color: #101417;
+  --primary-color: #4db1ae;
+  --secondary-color: #4bc5c1;
+  --extra-color: #ffba07;
+  --hover-color: #9bdfdd;
+
+  font-size: 62.5%;
+
+  --txt1-color: #d8d8d8;
+  --txt2-color: #c2baba;
+  --txt3-color: #d9d8d8;
+  --txt4-color: #ffffff;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.content {
+  background: var(--bg-color);
+}
+
+a,
+li {
+  text-decoration: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.subtitulo {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.4rem;
+  line-height: 3.6rem;
+
+  color: var(--txt3-color);
+}
+
+.descricao {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 1.9rem;
+
+  color: var(--txt2-color);
+}
+
+.js-scroll {
+  opacity: 0;
+  transform: translate3d(-40px, 0, 0);
+  transition: 0.4s;
+}
+
+.js-scroll.active {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+}

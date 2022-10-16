@@ -1,0 +1,91 @@
+.contato {
+  padding-left: 4rem;
+  padding-right: 4rem;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+.contato-conteudo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 7rem;
+}
+
+.contato h2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 4.8rem;
+  line-height: 7.2rem;
+  margin-bottom: 2.4rem;
+
+  color: var(--txt2-color);
+}
+
+.contato-conteudo p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.4rem;
+  line-height: 2.8rem;
+
+  color: var(--txt2-color);
+}
+
+.contato-canais h3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 3.2rem;
+  line-height: 4.8rem;
+  margin-bottom: 1.8rem;
+
+  color: var(--txt1-color);
+}
+
+.canais-lista {
+  display: flex;
+  gap: 2rem;
+}
+
+.credito {
+  text-align: center;
+  padding-top: 10rem;
+}
+
+.credito p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 3rem;
+
+  color: var(--txt2-color);
+}
+
+.credito span {
+  color: var(--primary-color);
+}
+
+@media (max-width: 900px) {
+  .contato {
+    padding: 4rem 2rem;
+  }
+  .contato-conteudo {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  .contato h2 {
+    font-size: 3.2rem;
+    margin-bottom: 0;
+  }
+  .contato p {
+    font-size: 2rem;
+  }
+  .credito {
+    padding-top: 5rem;
+  }
+  .canais-lista {
+    gap: 1rem;
+  }
+}

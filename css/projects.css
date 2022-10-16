@@ -1,0 +1,117 @@
+.projetos {
+  padding-left: 4rem;
+  padding-right: 4rem;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  align-items: center;
+}
+
+.projetos h2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 4.8rem;
+  line-height: 7.2rem;
+  margin-bottom: 2.8rem;
+
+  color: var(--txt2-color);
+}
+
+.projetos-lista {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6rem;
+}
+
+.projetos-lista a {
+  display: block;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 3.2rem;
+  line-height: 2.4rem;
+  border: 3px solid var(--primary-color);
+  border-radius: 1rem;
+  padding: 8rem 3.4rem;
+  margin-bottom: 2rem;
+  transition: 0.3s;
+
+  color: var(--txt1-color);
+}
+
+.projetos-lista a:hover {
+  color: var(--extra-color);
+}
+
+.projetos p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 2.4rem;
+  margin-top: 2.2rem;
+  margin-bottom: 1rem;
+  position: relative;
+
+  color: var(--txt1-color);
+}
+
+.projetos p::after {
+  content: "⮧";
+  position: absolute;
+  color: var(--primary-color);
+  margin-left: 1rem;
+}
+
+.repositorio {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 3rem;
+  transition: 0.3s;
+
+  color: var(--secondary-color);
+}
+
+.repositorio:hover {
+  color: var(--hover-color);
+}
+
+@media (max-width: 900px) {
+  .projetos-lista a {
+    padding: 4rem 1.6rem;
+    font-size: 2.2rem;
+    line-height: 1.8rem;
+  }
+  .projetos-lista {
+    gap: 2rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .projetos-lista a {
+    padding: 2rem 1rem;
+    font-size: 1.8rem;
+    line-height: 1.2rem;
+  }
+  .projetos-lista {
+    gap: 2rem;
+  }
+  .projetos h2 {
+    font-size: 3.2rem;
+    margin-bottom: 0;
+  }
+  .projetos {
+    grid-template-columns: 1fr;
+    padding: 4rem 2rem;
+  }
+  .projetos p {
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+  }
+  .repositorio {
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+  }
+}
